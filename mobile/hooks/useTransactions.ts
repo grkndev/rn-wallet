@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Alert } from "react-native";
 
-const BASE_API_URL = "http://192.168.1.10:5001/api"
+const BASE_API_URL = "https://rn-wallet-0qho.onrender.com/api"
 
 export default function useTransactions({ userId }: { userId: string }) {
     const [transactions, setTransactions] = React.useState([])
